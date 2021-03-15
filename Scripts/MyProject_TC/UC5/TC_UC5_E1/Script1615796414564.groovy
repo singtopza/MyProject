@@ -20,19 +20,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://www.kunkaibookshop.lnw.mn/')
 
-WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/a__loginbtn btn (4)'))
+WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/a__loginbtn btn (5)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Kunkai Book Shop/input__Email (12)'), 'singtopza@hotmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Kunkai Book Shop/input__Email (13)'), 'x@x')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Kunkai Book Shop/input_ _Password (8)'), 'F6+qwVGE4bg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Kunkai Book Shop/input_ _Password (9)'), 'F6+qwVGE4bg=')
 
-WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/button_ (11)'))
+WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/button_ (12)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/a_ (5)'))
+WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/font_ (11)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Kunkai Book Shop/input__UserID (1)'), '99')
+WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/a_ (6)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/input__btn btn-danger stbtnnumber (1)'))
+WebUI.verifyTextPresent('ไม่พบ', false)
 
 WebUI.closeBrowser()
 

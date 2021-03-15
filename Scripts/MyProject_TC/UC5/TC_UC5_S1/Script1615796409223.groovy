@@ -20,25 +20,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://www.kunkaibookshop.lnw.mn/')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/a__loginbtn btn (5)'))
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Object Repository/Page_Kunkai Book Shop/input__Email (13)'), 'cyberlab24244@hotmail.com')
 
-WebUI.setText(findTestObject('null'), 'cyberlab24244@hotmail.com')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Kunkai Book Shop/input_ _Password (9)'), 'F6+qwVGE4bg=')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/button_ (12)'))
 
-WebUI.setText(findTestObject('null'), '333333')
+WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/font_ (11)'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Kunkai Book Shop/a_ (6)'))
 
-WebUI.setEncryptedText(findTestObject('null'), 'F6+qwVGE4bg=')
-
-WebUI.setEncryptedText(findTestObject('null'), 'F6+qwVGE4bg=')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
+WebUI.verifyTextPresent('ยังไม่จัดส่ง', false)
 
 WebUI.closeBrowser()
 
